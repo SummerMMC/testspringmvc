@@ -11,7 +11,7 @@ public class UserTest {
         Connection connection = null;
         try {
             String SDdriver = "com.mysql.jdbc.Driver";
-            String SDurl = "jdbc:mysql://localhost:3306/testspringmvc?characterEncoding=utf8&useSSL=true";
+            String SDurl = "jdbc:mysql://localhost:3306/testspringmvc?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&failOverReadOnly=false";
             //emsdb替换成自己的数据库名称
             String SDuser = "root";
             String SDpassword = "root";

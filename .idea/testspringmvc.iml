@@ -63,7 +63,7 @@
     <orderEntry type="library" name="Maven: net.sf.ehcache:ehcache-core:2.4.3" level="project" />
     <orderEntry type="library" name="Maven: org.hibernate:hibernate-ehcache:4.2.11.Final" level="project" />
     <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:1.6.1" level="project" />
-    <orderEntry type="library" name="Maven: mysql:mysql-connector-java:5.1.17" level="project" />
+    <orderEntry type="library" name="Maven: mysql:mysql-connector-java:5.1.28" level="project" />
     <orderEntry type="library" name="Maven: javax.servlet.jsp.jstl:jstl-api:1.2" level="project" />
     <orderEntry type="library" name="Maven: javax.servlet:servlet-api:2.5" level="project" />
     <orderEntry type="library" name="Maven: javax.servlet.jsp:jsp-api:2.1" level="project" />
