@@ -34,5 +34,4 @@
 
     <!-- 加载数据源组件 -->
     <import resource="classpath:datasource.xml" />
-    <import resource="classpath:spring-mvc.xml" />
 </beans>
