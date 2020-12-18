@@ -5,14 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="731850a3-2504-4505-a965-9d2c9e11dcac" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations/tomcate.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_2_6_0.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/artifacts/testspringmvc_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/testspringmvc_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_17.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_28.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_28.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_11.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/testspringmvc.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/testspringmvc.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/mmc/ssh/dao/UserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/mmc/ssh/dao/UserTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/mmc/ssh/dao/UserTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/mmc/ssh/dao/UserTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/datasource.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/datasource.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/datasource.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/datasource.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +72,7 @@
   <component name="RunDashboard">
     <option name="openRunningConfigInTab" value="true" />
   </component>
-  <component name="RunManager" selected="Application.UserTest">
+  <component name="RunManager" selected="JUnit.UserDaoTest">
     <configuration name="UserTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.mmc.ssh.dao.UserTest" />
       <module name="testspringmvc" />
@@ -79,15 +80,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -115,29 +114,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
-      <deployment />
-      <server-settings />
-      <predefined_log_file enabled="true" id="Tomcat" />
-      <predefined_log_file enabled="true" id="Tomcat Catalina" />
-      <predefined_log_file id="Tomcat Manager" />
-      <predefined_log_file id="Tomcat Host Manager" />
-      <predefined_log_file id="Tomcat Localhost Access" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.UserTest" />
       <item itemvalue="JUnit.UserDaoTest" />
-      <item itemvalue="Tomcat Server.tomcate" />
       <item itemvalue="JUnit.All in testspringmvc" />
+      <item itemvalue="Tomcat Server.tomcate" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.UserDaoTest" />
         <item itemvalue="Application.UserTest" />
         <item itemvalue="JUnit.All in testspringmvc" />
-        <item itemvalue="JUnit.UserDaoTest" />
       </list>
     </recent_temporary>
   </component>
@@ -150,7 +137,8 @@
       <option name="presentableId" value="Default" />
       <updated>1608213114032</updated>
       <workItem from="1608213115491" duration="4993000" />
-      <workItem from="1608219498019" duration="3991000" />
+      <workItem from="1608219498019" duration="9212000" />
+      <workItem from="1608275925096" duration="347000" />
     </task>
     <servers />
   </component>
