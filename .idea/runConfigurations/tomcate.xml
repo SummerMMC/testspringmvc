@@ -1,7 +1,13 @@
 <component name="ProjectRunConfigurationManager">
   <configuration default="false" name="tomcate" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.41" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="1.8">
     <option name="UPDATING_POLICY" value="restart-server" />
-    <deployment />
+    <deployment>
+      <artifact name="testspringmvc:war exploded">
+        <settings>
+          <option name="CONTEXT_PATH" value="/testspringmvc" />
+        </settings>
+      </artifact>
+    </deployment>
     <server-settings>
       <option name="BASE_DIRECTORY_NAME" value="236ae926-65b6-48f7-b905-fdda6f449842" />
     </server-settings>
@@ -75,6 +81,9 @@
     </ConfigurationWrapper>
     <method v="2">
       <option name="Make" enabled="true" />
+      <option name="BuildArtifacts" enabled="true">
+        <artifact name="testspringmvc:war exploded" />
+      </option>
     </method>
   </configuration>
 </component>

@@ -1,17 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="testspringmvc:war exploded" />
+    </artifacts-to-build>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="731850a3-2504-4505-a965-9d2c9e11dcac" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_2_6_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/testspringmvc_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/testspringmvc_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_28.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_11.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/testspringmvc.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/testspringmvc.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mmc/ssh/controller/IndexController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mmc/ssh/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mmc/ssh/exception/MyException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mmc/ssh/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/spring-mvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/tomcate.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/tomcate.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/datasource.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/datasource.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/datasource.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/datasource.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/datasource.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/datasource.properties" afterDir="false" />
     </list>
@@ -24,6 +33,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin Class" />
+        <option value="Jsp File" />
         <option value="Class" />
       </list>
     </option>
@@ -58,21 +68,22 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main" />
+    <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="consents" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main" />
       <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
   </component>
   <component name="RunDashboard">
     <option name="openRunningConfigInTab" value="true" />
   </component>
-  <component name="RunManager" selected="JUnit.UserDaoTest">
+  <component name="RunManager" selected="Tomcat Server.tomcate">
     <configuration name="UserTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.mmc.ssh.dao.UserTest" />
       <module name="testspringmvc" />
@@ -101,12 +112,6 @@
     </configuration>
     <configuration name="UserDaoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="testspringmvc" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.mmc.ssh.dao.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <option name="PACKAGE_NAME" value="com.mmc.ssh.dao" />
       <option name="MAIN_CLASS_NAME" value="com.mmc.ssh.dao.UserDaoTest" />
       <option name="TEST_OBJECT" value="class" />
@@ -138,7 +143,7 @@
       <updated>1608213114032</updated>
       <workItem from="1608213115491" duration="4993000" />
       <workItem from="1608219498019" duration="9212000" />
-      <workItem from="1608275925096" duration="347000" />
+      <workItem from="1608275925096" duration="7531000" />
     </task>
     <servers />
   </component>
